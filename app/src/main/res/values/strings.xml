@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Shout</string>
+    <string name="bottom_right_nav_desc">Bottom right navigation button</string>
+    <string name="bottom_left_nav_desc">Bottom left navigation button</string>
+    <string name="top_right_nav_desc">Top right navigation button</string>
+    <string name="top_left_nav_desc">Top left navigation button</string>
+    <string name="bottom_middle_nav_desc">Bottom middle navigation button</string>
+    <string name="top_middle_nav_desc">Top middle navigation button</string>
+    <string name="chat_header">Chatting with: %1$s</string>
+    <string name="refresh_button_label">REFRESH</string>
+    <string name="chat_send_message">Send Chat Message</string>
+    <string name="enter_message_hint">Enter message here:</string>
+    <string name="landing_screen_header">People near you</string>
+    <string name="user_review_body_text">%1$s was on time and had great lunchtime conversation
+    </string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="shout_login_header">Shout! - Login</string>
+    <string name="shout_logo_content_description">Shout Logo</string>
+    <string name="register_button_text">Register</string>
+    <string name="shout_register_header">Shout - Register</string>
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="username_hint">Username</string>
+    <string name="gender_input_hint">Gender</string>
+    <string name="email_input_hint">Email</string>
+    <string name="password_input_hint">Password</string>
+    <string name="confirm_password_input_hint">Confirm password</string>
+    <string name="create_account_button_text">Create Account</string>
+    <string name="already_a_member_button_text">Already a member? Login</string>
+    <string name="log_out_button_text">LOG OUT</string>
+    <string name="your_profile_image_description">Your Profile image</string>
+    <string name="username_placeholder">USERNAME</string>
+    <string name="shout_description_placeholder">Description of the shout goes here</string>
+    <string name="five_star_placeholder">★★★★★</string>
+    <string name="distance_placeholder">78m</string>
+    <string name="shout_description_example">Go for a quick coffee with someone while on my lunch break</string>
+    <string name="shout_name_example">Alex Thomson</string>
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="facebook_app_id">1057248934313973</string>
+</resources>

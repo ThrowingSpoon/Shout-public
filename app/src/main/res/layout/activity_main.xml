@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_activity_root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/button_ripple_transparent"
+        android:contentDescription="@string/bottom_right_nav_desc"
+        android:onClick="openNewShoutActivity"
+        android:src="@drawable/loudspeaker_48" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/button_ripple_transparent"
+        android:contentDescription="@string/bottom_left_nav_desc"
+        android:onClick="openMyProfileActivity"
+        android:src="@drawable/profile_48" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_ripple_transparent"
+        android:contentDescription="@string/top_middle_nav_desc"
+        android:src="@drawable/history_48" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_ripple_transparent"
+        android:contentDescription="@string/bottom_middle_nav_desc"
+        android:onClick="openFilterMenu"
+        android:src="@drawable/filter_48" />
+
+
+</RelativeLayout>
